@@ -281,7 +281,7 @@ i {
 }
 
 p {
-  margin: 0 0 2em 0;
+  margin: 0 0 1em 0;
 }
 
 p.content {
@@ -394,7 +394,7 @@ pre code {
 hr {
   border: 0;
   border-bottom: solid 1px;
-  margin: 2em 0;
+  margin: 1.5em 0;
 }
 
 hr.major {
@@ -698,7 +698,8 @@ hr {
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
-    align-items: stretch;
+    align-items: flex-start;
+    justify-content: center;
   }
 
   .row > * {
@@ -942,6 +943,7 @@ hr {
     flex-wrap: wrap;
     box-sizing: border-box;
     align-items: stretch;
+    justify-content: center;
   }
 
   .row > * {
@@ -1992,6 +1994,7 @@ input[type="button"].small,
 button.small,
 .button.small {
   font-size: 0.8em;
+  margin-top: 2em;
 }
 
 input[type="submit"].large,
@@ -3882,4 +3885,7 @@ body.is-preload #header.alt .logo {
   #wrapper {
     max-width: 100%;
   }
+}
+.left {
+  float: left;
 }
