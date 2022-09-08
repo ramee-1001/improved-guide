@@ -699,7 +699,7 @@ hr {
     flex-wrap: wrap;
     box-sizing: border-box;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: space-around;
   }
 
   .row > * {
