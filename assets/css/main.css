@@ -1994,7 +1994,7 @@ input[type="button"].small,
 button.small,
 .button.small {
   font-size: 0.8em;
-  margin-top: 2em;
+  margin-top: 0.5em;
 }
 
 input[type="submit"].large,
@@ -2278,7 +2278,7 @@ select {
 
 select option {
   color: #ffffff;
-  background: #935d8c;
+  background: #018c1b;
 }
 
 input[type="checkbox"] + label,
@@ -2296,7 +2296,7 @@ input[type="checkbox"]:checked + label:before,
 input[type="radio"]:checked + label:before {
   background-color: #ffffff;
   border-color: #ffffff;
-  color: #935d8c;
+  color: #018c1b;
 }
 
 input[type="checkbox"]:focus + label:before,
@@ -2937,10 +2937,10 @@ table.alt tbody tr td {
   padding: 0;
 }
 .features h3 {
-  margin-left: -1em;
+  margin-left: -1.2em;
 }
 .features p {
-  margin-left: -1em;
+  margin-left: -1.2em;
 }
 
 .features li:nth-child(1),
